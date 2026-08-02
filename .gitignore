@@ -1,0 +1,67 @@
+# Ambiente / Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Sessao Instagram (NUNCA subir)
+.session/
+**/chrome-debug-profile/
+**/browser-profile/
+cookies.txt
+**/cookies.txt
+storage_state.json
+**/storage_state.json
+session.json
+**/session.json
+
+# Downloads e arquivos locais
+downloads/
+*.mp4
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.mov
+*.m4a
+!instagram-baixar.png
+!instagram-baixar.ico
+
+# Metadados de download / temp
+.baixados.txt
+.archive.txt
+*.part
+*.download
+*.log
+_test_urls.json
+_probe_*.py
+_qtest.py
+_t.py
+_dash.py
+_check_*.py
+_test_*.py
+!test_smoke.py
+
+# IDE / SO
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Segredos
+.env
+.env.*
+*.pem
+credentials*.json
+*_token.json
